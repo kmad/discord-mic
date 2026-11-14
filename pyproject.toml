@@ -1,0 +1,8 @@
+[project]
+name = "discord-mic"
+version = "0.1.0"
+description = "Send local audio to a Discord voice channel for playback on Xbox"
+requires-python = ">=3.12"
+# discord.py 2.7.1 does not drive davey 0.2's explicit key transitions.
+# Revisit these pins when https://github.com/Rapptz/discord.py/pull/10548 ships.
+dependencies = ["discord.py[voice]==2.7.1", "davey>=0.1.6,<0.2", "python-dotenv>=1.0,<2"]
