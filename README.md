@@ -2,9 +2,7 @@
 
 Play Mac audio through your Xbox using a Discord voice channel.
 
-```text
-Mac audio → Discord bot → Xbox → speakers or headphones
-```
+![Mac audio flows through a Discord bot to Xbox and your headphones.](assets/audio-flow.gif)
 
 ## Install
 
